@@ -11,6 +11,8 @@ namespace ConsoleApp2
 
             Console.WriteLine("Hello Feature1 World!");
             Console.WriteLine($"Result : {a+b}");
+
+            Console.WriteLine($"Result : {a * b}");
         }
     }
 }
