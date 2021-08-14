@@ -6,10 +6,13 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            var a = 1;
-            var b = 2;
+            int a = 1;
+            int b = 2;
+            
+            int c= a*b;
 
             Console.WriteLine("Hello Feature1 World!");
+            Console.WriteLine($"Result : {c}");
             Console.WriteLine($"Result : {a+b}");
 
             Console.WriteLine($"Result : {a * b}");
