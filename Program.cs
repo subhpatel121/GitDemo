@@ -8,8 +8,11 @@ namespace ConsoleApp2
         {
             int a = 1;
             int b = 2;
+            
+            int c= a*b;
 
             Console.WriteLine("Hello Feature1 World!");
+            Console.WriteLine($"Result : {c}");
             Console.WriteLine($"Result : {a+b}");
         }
     }
