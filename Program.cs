@@ -6,8 +6,8 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            int a = 1;
-            int b = 2;
+            var a = 1;
+            var b = 2;
 
             Console.WriteLine("Hello Feature1 World!");
             Console.WriteLine($"Result : {a+b}");
